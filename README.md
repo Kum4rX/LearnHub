@@ -1,4 +1,4 @@
-# LearnHub
+#LearnHub
 
 <div align="center">
 ![LearnHub Logo](static/img/learnhub.png)
@@ -111,7 +111,7 @@ text
 ---
 
 ## 📝 License
-[MIT License](LICENSE) © 2025 Souvik Kumar Pramanik
+[MIT License](LICENSE) © 2025 Kumara swamy
 
 ---
 
@@ -119,7 +119,7 @@ text
 **⭐ Star if helpful!** 
 **Made with ❤️ by LearnHub Community**
 
-[GitHub](https://github.com/souvikpramanikgit/LearnHub) | 
-[Issues](https://github.com/souvikpramanikgit/LearnHub/issues) | 
-[Discussions](https://github.com/souvikpramanikgit/LearnHub/discussions)
+[GitHub](https://github.com/Kum4rX) | 
+[Issues](https://github.com/Kum4rX) | 
+[Discussions](https://github.com/Kum4rX)
 </div>
