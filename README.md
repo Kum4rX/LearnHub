@@ -1,266 +1,47 @@
+text
 # LearnHub
 
 <div align="center">
-
 ![LearnHub Logo](static/img/learnhub.png)
-
-**A comprehensive learning platform for web development, AI, blockchain, and more**
+**Comprehensive learning platform for web dev, AI, DSA, blockchain & more**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0-brightgreen)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org/)
 [![Docusaurus](https://img.shields.io/badge/Docusaurus-3.8.1-blue)](https://docusaurus.io/)
-
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing) • [License](#-license)
-
 </div>
 
----
-
-## 📖 About
-
-LearnHub is an open-source educational platform built with Docusaurus that provides comprehensive learning resources for modern technologies. Whether you're a beginner looking to start your coding journey or an experienced developer wanting to expand your skills, LearnHub offers structured courses, interactive quizzes, code playgrounds, and video lectures across multiple domains.
-
-### 🎯 Mission
-
-To make quality technical education accessible to everyone through interactive, well-structured, and community-driven content.
-
----
-
 ## ✨ Features
+- **Courses**: Web Dev, AI, DSA, Blockchain, DevOps
+- **Interactive Tools**: Code playground, quizzes, progress tracking
+- **Modern UI**: Dark mode, responsive, smooth animations
+- **Tech Stack**: Docusaurus 3.8.1, React 19, TypeScript 5.6.2
 
-### 🎓 Comprehensive Course Content
-- **Web Development**: HTML, CSS, JavaScript, React, Node.js, Python, and Database fundamentals
-- **Generative AI**: AI fundamentals, machine learning concepts, and practical applications
-- **Data Structures & Algorithms**: Essential DSA concepts with practice problems and prep sheets
-- **Blockchain Development**: Blockchain basics, smart contracts, and decentralized applications
-- **DevOps**: CI/CD, containerization, and infrastructure management
+## 🚀 Quick Start
+git clone https://github.com/souvikpramanikgit/LearnHub.git
+cd LearnHub
+npm install
+npm start
 
-### 🚀 Interactive Learning Tools
-- **Interactive Code Playground**: Write, test, and preview HTML, CSS, and JavaScript in real-time
-- **Quiz System**: Test your knowledge with interactive quizzes embedded in course content
-- **Video Lectures**: Access categorized video content for different topics
-- **Course Progress Tracking**: Track your learning progress with visual progress indicators
-- **Tech News Integration**: Stay updated with the latest technology news
+text
+Open [http://localhost:3000](http://localhost:3000)
 
-### 🎨 Modern UI/UX
-- **Responsive Design**: Fully responsive layout that works on all devices
-- **Dark Mode Support**: Built-in dark theme for comfortable reading
-- **Smooth Animations**: Engaging user experience with smooth transitions
-- **Scroll Progress Bar**: Visual indicator of reading progress
-- **Scroll to Top Button**: Easy navigation for long content pages
+## 📚 Courses
+- **Web**: HTML/CSS/JS/React/Node/Python/Database
+- **AI**: ML basics, neural networks
+- **DSA**: Arrays, trees, graphs, DP
+- **Blockchain**: Smart contracts, DApps
+- **DevOps**: CI/CD, Docker
 
-### 📚 Additional Features
-- **Blog System**: Share insights and updates through the integrated blog
-- **Search Functionality**: Quick search across all documentation
-- **Mermaid Diagrams**: Visual learning with sequence diagrams and flowcharts
-- **MDX Support**: Write content with embedded React components
-- **Analytics Integration**: Vercel Analytics for usage tracking
+## 🤝 Contributing
+1. Fork → Clone → Branch
+2. `npm install && npm start`
+3. Commit → PR
 
----
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-## 🛠️ Tech Stack
+## 📝 License
+MIT License - see [LICENSE](LICENSE)
 
-### Core Framework
-- **[Docusaurus 3.8.1](https://docusaurus.io/)** - Static site generator optimized for documentation
-- **[React 19.1.1](https://react.dev/)** - UI library for building interactive components
-- **[TypeScript 5.6.2](https://www.typescriptlang.org/)** - Type-safe JavaScript
-
-### Key Dependencies
-- **@monaco-editor/react** - Code editor for the interactive playground
-- **@docusaurus/theme-mermaid** - Mermaid diagram support
-- **lucide-react** - Modern icon library
-- **prism-react-renderer** - Syntax highlighting
-- **react-simple-typewriter** - Typewriter effect animations
-- **@vercel/analytics** - Analytics integration
-
-### Development Tools
-- **Node.js** (>=18.0) - Runtime environment
-- **npm** - Package manager
-
----
-
-## 📁 Project Structure
-LearnHub/
-├── blog/ # Blog posts and articles
-│ ├── 2019-05-28-first-blog-post.md
-│ └── authors.yml
-├── docs/ # Main documentation content
-│ ├── AI/ # AI/ML content
-│ ├── blockchain-development/ # Blockchain courses
-│ ├── data-structure-algorithms/ # DSA content
-│ ├── devops/ # DevOps content
-│ ├── generative-ai/ # Generative AI courses
-│ ├── web-developement/ # Web development courses
-│ │ ├── html/
-│ │ ├── css/
-│ │ ├── javascript/
-│ │ ├── reactjs/
-│ │ ├── nodejs/
-│ │ ├── python/
-│ │ └── database/
-│ └── notes/ # Quick reference notes
-├── lectures/ # Video lecture data
-│ └── Videolectures.js
-├── src/ # Source code
-│ ├── components/ # React components
-│ │ ├── CodePlayground/ # Interactive code editor
-│ │ ├── CourseProgress.tsx # Progress tracking
-│ │ ├── HomepageFeatures/ # Homepage features
-│ │ ├── Quiz.tsx # Quiz component
-│ │ ├── ScrollProgressBar.tsx # Progress indicator
-│ │ └── ScrollToTopButton.tsx # Navigation button
-│ ├── css/ # Global styles
-│ │ └── custom.css
-│ ├── pages/ # Custom pages
-│ │ ├── Index.tsx # Homepage
-│ │ ├── lectures.tsx # Video lectures page
-│ │ └── news.tsx # Tech news page
-│ └── theme/ # Custom theme components
-│ ├── Footer/
-│ └── Navbar/
-├── static/ # Static assets
-│ ├── img/ # Images and logos
-│ └── videos/ # Video files
-├── docusaurus.config.ts # Docusaurus configuration
-├── sidebars.ts # Sidebar navigation config
-├── package.json # Dependencies and scripts
-├── tsconfig.json # TypeScript configuration
-├── LICENSE # MIT License
-├── CODE_OF_CONDUCT.md # Community guidelines
-├── CONTRIBUTING.md # Contribution guide
-└── LEARN.md 
-
-# Developer learning guide
----## 🚀 Installation### Prerequisites- **Node.js** >= 18.0- **npm** (comes with Node.js) or **yarn**### Setup Steps1. **Clone the repository**   git clone https://github.com/souvikpramanikgit/LearnHub.git   cd LearnHub   2. **Install dependencies**   npm install   3. **Start the development server**   npm start   4. **Open your browser**   Navigate to `http://localhost:3000` to view the site.The site will automatically reload when you make changes to the source files.---## 💻 Usage### Development Commands# Start development servernpm start# Build for productionnpm run build# Serve production build locallynpm run serve# Clear Docusaurus cachenpm run clear# Type checkingnpm run typecheck# Write translation filesnpm run write-translations# Generate heading IDsnpm run write-heading-ids### Adding New Content1. **Add Documentation**: Create markdown files in the `docs/` directory2. **Add Blog Posts**: Create markdown files in the `blog/` directory3. **Update Sidebar**: Modify `sidebars.ts` to include new content4. **Add Components**: Create React components in `src/components/`### Using the Code PlaygroundThe interactive code playground allows users to:- Write HTML, CSS, and JavaScript code- See live preview of their code- Save code to localStorage- Download code as HTML file- Share code via clipboardAccess it at `/docs/code-playground-demo` or embed it in any MDX file:import CodePlayground from '@site/src/components/CodePlayground';<CodePlayground   defaultCode={{    html: '<h1>Hello World</h1>',    css: 'h1 { color: blue; }',    js: 'console.log("Hello");'  }}/>### Adding QuizzesCreate a `quiz.json` file in your documentation directory:{  "questions": [    {      "id": "q1",      "question": "What is React?",      "options": ["A library", "A framework", "A language", "A database"],      "correctAnswer": "A library",      "explanation": "React is a JavaScript library for building user interfaces."    }  ]}Then use it in your MDX file:import { Quiz } from '@site/src/components/Quiz';import quizData from './quiz.json';<Quiz questions={quizData.questions} />---## 📚 Available Courses### 🌐 Web Development- **HTML**: Structure, semantics, forms, and accessibility- **CSS**: Styling, layouts (Flexbox, Grid), animations- **JavaScript**: Fundamentals, DOM manipulation, ES6+- **React.js**: Components, hooks, state management, routing- **Node.js**: Server-side JavaScript, Express.js, APIs- **Python**: Basics, data structures, web frameworks- **Database**: SQL, NoSQL, database design, queries### 🤖 Generative AI- AI fundamentals and concepts- Machine learning basics- Neural networks and deep learning- Practical AI applications### 📊 Data Structures & Algorithms- Arrays, Linked Lists, Stacks, Queues- Trees, Graphs, Hash Tables- Sorting and searching algorithms- Dynamic programming- Practice problems and prep sheets### ⛓️ Blockchain Development- Blockchain fundamentals- Cryptography basics- Smart contracts- Decentralized applications (DApps)- Ethereum and other platforms### 🔧 DevOps- CI/CD pipelines- Containerization (Docker)- Infrastructure as Code- Cloud platforms- Monitoring and logging---## 🧩 Key Components### CodePlaygroundInteractive code editor with live preview, supporting HTML, CSS, and JavaScript.**Location**: `src/components/CodePlayground/`**Features**:- Monaco Editor integration- Live preview with iframe- Save/Load functionality- Download as HTML- Code sharing### Quiz ComponentInteractive quiz system with scoring and explanations.**Location**: `src/components/Quiz.tsx`**Features**:- Multiple choice questions- Real-time scoring- Explanation display- Dark mode support- Retake functionality### CourseProgressTrack learning progress across courses and lessons.**Location**: `src/components/CourseProgress.tsx`**Features**:- Visual progress bar- Lesson completion tracking- LocalStorage persistence- Progress percentage calculation### HomepageFeaturesShowcase platform features with icons and descriptions.**Location**: `src/components/HomepageFeatures/`---## 🤝 ContributingWe welcome contributions from the community! Whether it's fixing bugs, adding new content, improving documentation, or suggesting new features, your help makes LearnHub better for everyone.### How to Contribute1. **Fork the repository**2. **Create a branch** (`git checkout -b feature/amazing-feature`)3. **Make your changes**4. **Commit your changes** (`git commit -m 'Add some amazing feature'`)5. **Push to the branch** (`git push origin feature/amazing-feature`)6. **Open a Pull Request**### Contribution Guidelines- Follow the existing code style and structure- Write clear commit messages- Add comments for complex code- Test your changes thoroughly- Update documentation if needed- Ensure accessibility and responsivenessFor detailed guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md) and [LEARN.md](LEARN.md).### Code of ConductPlease read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming environment for all contributors.---## 📝 LicenseThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-Install dependencies
-   npm installnks- **GitHub Repository**: [https://github.com/souvikpramanikgit/LearnHub](https://github.com/souvikpramanikgit/LearnHub)- **Documentation**: [View Live Site](https://your-docusaurus-site.example.com) *(Update with your deployment URL)*- **Issues**: [Report a Bug](https://github.com/souvikpramanikgit/LearnHub/issues)- **Discussions**: [Join the Discussion](https://github.com/souvikpramanikgit/LearnHub/discussions)---## 🙏 Acknowledgments- Built with [Docusaurus](https://docusaurus.io/)- Icons by [Lucide](https://lucide.dev/)- Code editor powered by [Monaco Editor](https://microsoft.github.io/monaco-editor/)- Syntax highlighting by [Prism](https://prismjs.com/)---## 📊 Project Status**Active Development** 🚀This project is actively maintained and regularly updated with new content and features. Contributions are welcome!---## 📧 ContactFor questions, suggestions, or support:- Open an [issue](https://github.com/souvikpramanikgit/LearnHub/issues) on GitHub- Check out our [discussions](https://github.com/souvikpramanikgit/LearnHub/discussions)---<div align="center">**Made with ❤️ by the LearnHub Community**⭐ Star this repo if you find it helpful!</div>
-Start the development server
-   npm start
-Open your browser
-Navigate to http://localhost:3000 to view the site.
-The site will automatically reload when you make changes to the source files.
-💻 Usage
-Development Commands
-# Start development servernpm start# Build for productionnpm run build# Serve production build locallynpm run serve# Clear Docusaurus cachenpm run clear# Type checkingnpm run typecheck# Write translation filesnpm run write-translations# Generate heading IDsnpm run write-heading-ids
-Adding New Content
-Add Documentation: Create markdown files in the docs/ directory
-Add Blog Posts: Create markdown files in the blog/ directory
-Update Sidebar: Modify sidebars.ts to include new content
-Add Components: Create React components in src/components/
-Using the Code Playground
-The interactive code playground allows users to:
-Write HTML, CSS, and JavaScript code
-See live preview of their code
-Save code to localStorage
-Download code as HTML file
-Share code via clipboard
-Access it at /docs/code-playground-demo or embed it in any MDX file:
-import CodePlayground from '@site/src/components/CodePlayground';<CodePlayground   defaultCode={{    html: '<h1>Hello World</h1>',    css: 'h1 { color: blue; }',    js: 'console.log("Hello");'  }}/>
-Adding Quizzes
-Create a quiz.json file in your documentation directory:
-{  "questions": [    {      "id": "q1",      "question": "What is React?",      "options": ["A library", "A framework", "A language", "A database"],      "correctAnswer": "A library",      "explanation": "React is a JavaScript library for building user interfaces."    }  ]}
-Then use it in your MDX file:
-import { Quiz } from '@site/src/components/Quiz';import quizData from './quiz.json';<Quiz questions={quizData.questions} />
-📚 Available Courses
-🌐 Web Development
-HTML: Structure, semantics, forms, and accessibility
-CSS: Styling, layouts (Flexbox, Grid), animations
-JavaScript: Fundamentals, DOM manipulation, ES6+
-React.js: Components, hooks, state management, routing
-Node.js: Server-side JavaScript, Express.js, APIs
-Python: Basics, data structures, web frameworks
-Database: SQL, NoSQL, database design, queries
-🤖 Generative AI
-AI fundamentals and concepts
-Machine learning basics
-Neural networks and deep learning
-Practical AI applications
-📊 Data Structures & Algorithms
-Arrays, Linked Lists, Stacks, Queues
-Trees, Graphs, Hash Tables
-Sorting and searching algorithms
-Dynamic programming
-Practice problems and prep sheets
-⛓️ Blockchain Development
-Blockchain fundamentals
-Cryptography basics
-Smart contracts
-Decentralized applications (DApps)
-Ethereum and other platforms
-🔧 DevOps
-CI/CD pipelines
-Containerization (Docker)
-Infrastructure as Code
-Cloud platforms
-Monitoring and logging
-🧩 Key Components
-CodePlayground
-Interactive code editor with live preview, supporting HTML, CSS, and JavaScript.
-Location: src/components/CodePlayground/
-Features:
-Monaco Editor integration
-Live preview with iframe
-Save/Load functionality
-Download as HTML
-Code sharing
-Quiz Component
-Interactive quiz system with scoring and explanations.
-Location: src/components/Quiz.tsx
-Features:
-Multiple choice questions
-Real-time scoring
-Explanation display
-Dark mode support
-Retake functionality
-CourseProgress
-Track learning progress across courses and lessons.
-Location: src/components/CourseProgress.tsx
-Features:
-Visual progress bar
-Lesson completion tracking
-LocalStorage persistence
-Progress percentage calculation
-HomepageFeatures
-Showcase platform features with icons and descriptions.
-Location: src/components/HomepageFeatures/
-🤝 Contributing
-We welcome contributions from the community! Whether it's fixing bugs, adding new content, improving documentation, or suggesting new features, your help makes LearnHub better for everyone.
-How to Contribute
-Fork the repository
-Create a branch (git checkout -b feature/amazing-feature)
-Make your changes
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request
-Contribution Guidelines
-Follow the existing code style and structure
-Write clear commit messages
-Add comments for complex code
-Test your changes thoroughly
-Update documentation if needed
-Ensure accessibility and responsiveness
-For detailed guidelines, see CONTRIBUTING.md and LEARN.md.
-Code of Conduct
-Please read and follow our Code of Conduct to ensure a welcoming environment for all contributors.
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-MIT LicenseCopyright (c) 2025 Souvik Kumar PramanikPermission is hereby granted, free of charge, to any person obtaining a copyof this software and associated documentation files (the "Software"), to dealin the Software without restriction...
-🔗 Links
-GitHub Repository: https://github.com/Kum4rX/LearnHub
-Documentation: View Live Site (Update with your deployment URL)
-Issues: Report a Bug
-Discussions: Join the Discussion
-🙏 Acknowledgments
-Built with Docusaurus
-Icons by Lucide
-Code editor powered by Monaco Editor
-Syntax highlighting by Prism
-📊 Project Status
-Active Development 🚀
-This project is actively maintained and regularly updated with new content and features. Contributions are welcome!
-📧 Contact
-For questions, suggestions, or support:
-Open an issue on GitHub
-Check out our discussions
- 
- 
+<div align="center">
+**⭐ Star if helpful!** Made with ❤️ by LearnHub Community
+</div>
