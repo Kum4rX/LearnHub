@@ -62,7 +62,7 @@ Make quality technical education accessible through interactive, community-drive
 - npm
 
 ### Quick Start
-git clone https://github.com/souvikpramanikgit/LearnHub.git
+git clone https://github.com/Kum4rX/LearnHub.git
 cd LearnHub
 npm install
 npm start
